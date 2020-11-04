@@ -1,0 +1,20 @@
+{
+    "name": "php-tool-kit/db",
+    "description": "Um inv\u0000lucro para o PDO",
+    "type": "library",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Everton da Rosa",
+            "email": "everton3x@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.12",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "files": ["src/db.php"]
+    }
+}
